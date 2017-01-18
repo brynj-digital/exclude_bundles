@@ -3,9 +3,11 @@
   "type": "drupal-module",
   "description": "Allows Drupal bundles (or Content Types) to be excluded from the standard Drupal search.",
   "keywords": [
-    "bundles",
     "drupal",
-    "content type"
+	"drupal 8",
+    "bundles",
+    "content type",
+	"search"
   ],
   "homepage": "https://github.com/brynj-digital/exclude_bundles",
   "license": "GPL-2.0+",
@@ -16,9 +18,7 @@
       "role": "Developer"
     }
   ],
-  "autoload": {
-    "psr-4": { "Reckless\\VerifoneOcius\\" : "src/" }
-  },
+
   "require": {},
   "minimum-stability": "dev",
   "prefer-stable": true
